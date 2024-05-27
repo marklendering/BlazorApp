@@ -1,0 +1,18 @@
+﻿@page "/"
+@page "/Home"
+
+<PageTitle>Home</PageTitle>
+
+<RadzenLayout>
+  <RadzenBody>
+    <RadzenText TextStyle="TextStyle.H1">Hello, world!</RadzenText>
+    <RadzenText>Welcome to your new app.</RadzenText>
+
+    <RadzenButton Text="@text"></RadzenButton>
+  </RadzenBody>
+
+</RadzenLayout>
+
+@code {
+  string text = "Hi";
+}
